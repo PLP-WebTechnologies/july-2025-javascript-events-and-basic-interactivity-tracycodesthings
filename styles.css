@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+textarea, input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.dark-theme {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.dark-theme input,
+.dark-theme textarea {
+  background-color: #333;
+  color: #f1f1f1;
+  border: 1px solid #555;
+}
